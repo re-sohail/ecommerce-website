@@ -23,7 +23,7 @@ Welcome to our React E-Commerce Website project! This repository contains the co
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/re-sohail/react-gym-website
+   git clone https://github.com/re-sohail/ecommerce-website
    ```
 
 2. Install dependencies:
