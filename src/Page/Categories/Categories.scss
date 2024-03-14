@@ -1,0 +1,32 @@
+.category-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+    .sorting-feature{
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-size: 14px;
+            cursor: pointer;
+
+            span{
+                font-weight: 600;
+            }
+            img{
+                width: 12px;
+            }
+        }
+    }
+    .data-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 50px 20px;
+    }
+}

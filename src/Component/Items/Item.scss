@@ -1,0 +1,43 @@
+.item-container {
+    width: 20%;
+    .cards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .card {
+            .popular-img {
+                width: 100%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transition: all 0.5s ease;
+                    cursor: pointer;
+
+                    &:hover {
+                        scale: 1.1;
+                    }
+                }
+            }
+
+            p {
+                font-size: 14px;
+                margin: 10px 0;
+            }
+
+            .values {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 15px;
+
+                p:nth-child(2) {
+                    color: rgb(80, 80, 80);
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

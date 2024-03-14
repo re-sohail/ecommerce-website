@@ -1,0 +1,83 @@
+.hero-conatiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: linear-gradient(to bottom, #F8E3FF, #fff);
+
+
+    .left-part-data {
+        p {
+            font-size: 18px;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 55%;
+            font-size: 70px;
+            gap: 20px;
+            line-height: 90px;
+            margin: 20px 0 120px;
+
+            img {
+                width: 80px;
+                cursor: pointer;
+                transition: all 0.5 ease-in-out;
+
+                &:hover {
+                    animation-name: anime;
+                    animation-duration: 1s;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                }
+            }
+        }
+
+        button {
+            width: 250px;
+            height: 60px;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            background: red;
+            border-radius: 70px;
+            outline: none;
+            border: none;
+            font-weight: 500;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.8s ease;
+
+            &:hover {
+                border-radius: 10px;
+
+            }
+
+        }
+    }
+
+    .right-part-data {
+
+        img {
+            width: 450px;
+        }
+    }
+}
+
+@keyframes anime {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(40%);
+
+    }
+}

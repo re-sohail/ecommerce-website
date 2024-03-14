@@ -1,0 +1,45 @@
+.exclusive_poster{
+    width: 90%;
+    padding: 50px 40px 0;
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #F8E3FF, #fff);
+
+
+    .left-exclusive-poster{
+        width: 50%;
+        h1{
+            font-size: 70px;
+            font-weight: 500;
+            line-height: 80px;
+        }
+        p{
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin: 10px 0 100px;
+        }
+        button{
+            padding: 15px 35px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            background: red;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.5s ease;
+
+            &:hover{
+                border-radius: 10px;
+            }
+        }
+    }
+    .right-exclusive-poster{
+        img{
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.popular-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 50px;
+    width: 100%;
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    hr{
+        width: 190px;
+        height: 3px;
+        background: #000;
+        margin-top: 10px;
+    }
+    .data-img{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
